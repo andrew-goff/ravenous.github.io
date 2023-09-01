@@ -1,0 +1,84 @@
+.businessList {
+    text-align: center;
+    display: flex;
+    background-color: #8c93a8;
+}
+
+.business1-logo {
+    height: 20vmin;
+    align-items: center;
+    pointer-events: none;
+}
+
+grid {
+    display: block;
+}
+
+
+.content-box {
+    color: burlywood;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1em;
+    background-color: #8c93a8;
+}
+
+.Businesslist-p {
+    color: burlywood;
+    text-align: center;
+    align-items: center;    
+    columns: 2 4em;
+    background-color: #8c93a8;
+}
+
+.Search-h1 {
+    color:burlywood;
+    min-height: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8c93a8;
+}
+
+.Search-label {
+    color:burlywood;
+    min-height: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8c93a8;
+
+}
+
+.Search-form {
+    color:burlywood;
+    min-height: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #8c93a8;
+
+}
+
+.Search-button {
+    color:burlywood;
+    min-height: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #020202;
+
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .business1-logo {
+      animation: business1-logo-spin infinite 20s linear;
+    }
+  }
